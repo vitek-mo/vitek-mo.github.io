@@ -9,44 +9,24 @@ body {
 }
 
 /* BEGIN (write your solution here) */
-hr {
-    height: 2px;
-    background-color: red;
-    border-color: black;
+#header {
+    margin-bottom: 32px;
 }
 
-p {
-    margin-bottom: 12px;
-}
-
-h1, h2, h3 {
-    font-weight: 400;
-    margin-bottom: 0px;
+#footer {
+    margin: 64px;
 }
 
 h1 {
     font-size: 36px;
+    text-align: center;
 }
 
 h2 {
     font-size: 32px;
-    border-bottom-width: 1px;
-    border-bottom-color: gray;
-    margin-bottom: 8px;
 }
 
 h3 {
     font-size: 20px;
-}
-
-#header{
-    margin-bottom: 32px;
     text-align: center;
 }
-
-#footer{
-    margin-top:64px;
-    text-align: center;
-}
-
-/* END */
